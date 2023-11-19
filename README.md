@@ -34,9 +34,9 @@ To use the Morse Code Converter, follow these steps:
 
 ## Usage
 
-1. Run the application with the following command:
-   ```bash
-   python main.py
+Run the application with the following command:
+   ```python main.py```
+   
 
 ## Contributing
 
