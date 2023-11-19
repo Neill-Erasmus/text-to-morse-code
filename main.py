@@ -1,7 +1,7 @@
 from data import LETTERS, NUMBERS
 import sys
 
-def GetUserInput() -> str:
+def GetUserInput() -> list[str]:
     """
     Get user input to determine whether to convert text to Morse code or exit the application.
 
@@ -18,7 +18,7 @@ def GetUserInput() -> str:
         input("Press any key to exit the application...")
         sys.exit(0)
     else:
-        return "Invalid Input!"
+        return ["Invalid Input!"]
 
 def ConvertTextList(user_input : str) -> list[str]:
     """
