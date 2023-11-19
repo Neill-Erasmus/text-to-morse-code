@@ -14,10 +14,10 @@ def GetUserInput() -> str:
 def ConvertTextList(user_input : str) -> list[str]:
     output : list[str] = []
     for _, character in enumerate(user_input):
-        try:
+        if character.isalpha():
             output.append(LETTERS[str.upper(character)])
-        except KeyError:
-            print(f'The character "{character}" is invalid!')
+        elif character.isnumeric():
+            output.append(NUMBERS[character])
     print(f"The morse code for each valid character in the sequence provided: ")
     return output
 
