@@ -31,17 +31,17 @@ To use the Morse Code Converter, follow these steps:
 2. Change into the project directory:
    ```bash
    cd morse-code-converter
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
 
 ## Usage
 
 Run the application with the following command:
-
     ```bash
     python main.py
 
 ## Contributing
 
 Currently, contributions are not accepted for this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
