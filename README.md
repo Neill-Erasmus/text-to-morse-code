@@ -2,8 +2,6 @@
 
 # Morse Code Converter
 
-A simple Python application that converts text to Morse code.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
